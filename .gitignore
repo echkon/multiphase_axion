@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+.ipynb_checkpoints/
+
+# Generated data and figures are not tracked
+topo/data/
+topo/figure/
+topo/logs/
+*.pkl
+*.npy
+*.npz
+*.png
