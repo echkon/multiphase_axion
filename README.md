@@ -2,7 +2,10 @@
 
 Code supporting the article
 
-> L. B. Ho, *Multiparameter sensing of axion dark matter with superconducting-qubit networks* (2026).
+> L. B. Ho, *Multiparameter sensing of axion dark matter with superconducting-qubit networks*,
+> Phys. Rev. D (2026), accepted 6 November 2026.
+> DOI: [10.1103/4s26-75w2](https://doi.org/10.1103/4s26-75w2) ·
+> arXiv: [2609.20254](https://arxiv.org/abs/2609.20254)
 
 The repository contains a variational entangled sensor network of $N=5$
 transmon qubits that jointly estimates the two Cartesian components
@@ -63,6 +66,22 @@ The exclusion curves in `plot_recover_mass*.py` read `ADMX2018.txt`, `ADMX2021.t
 See [`topo/README.md`](topo/README.md) for the full description of each script.
 
 ## Citation
+
+If you use this code, please cite the article:
+
+```bibtex
+@article{Ho2026PRD,
+  author  = {Ho, Le Bin},
+  title   = {Multiparameter sensing of axion dark matter with superconducting-qubit networks},
+  journal = {Phys. Rev. D},
+  year    = {2026},
+  doi     = {10.1103/4s26-75w2},
+  eprint  = {2609.20254},
+  archivePrefix = {arXiv}
+}
+```
+
+and the code:
 
 ```bibtex
 @misc{Ho2026Code,
